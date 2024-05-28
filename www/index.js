@@ -1,6 +1,6 @@
-import init, { greet } from 'snake_game';
+import init, { World } from 'snake_game';
 
 init().then(res => {
-    greet('wasm extern function is working truly')
-    console.log('hi')
+    const world = World.new();
+    console.log(world.width())
 })
