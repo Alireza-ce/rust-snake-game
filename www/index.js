@@ -33,7 +33,6 @@ function drawWorld(width, cellSize, snakeIdx){
         cellSize
     )
 
-    ctx.stroke();
 }
 
 
