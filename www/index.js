@@ -1,7 +1,5 @@
 import init, { World } from 'snake_game';
 
-
-
 function drawWorld(width, cellSize, snakeIdx){
     const canvas = document.getElementById('board-game-canvas');
     const ctx = canvas.getContext('2d');
@@ -32,9 +30,7 @@ function drawWorld(width, cellSize, snakeIdx){
         cellSize,
         cellSize
     )
-
 }
-
 
 function main(){
     const cellSize = 20;
@@ -44,6 +40,5 @@ function main(){
         drawWorld(world.width(),cellSize, world.snake_head());
     })
 }
-
 
 main();
